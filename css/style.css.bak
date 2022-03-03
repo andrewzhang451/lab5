@@ -1,136 +1,42 @@
-@font-face {
-    font-family: candyBeans;
-    src: url(../assets/fonts/candy_beans/candy_beans.otf);
+table, th, td {
+	padding: 5px;
+	background-color: #a7adba;
+	border-collapse: collapse;
+	border-radius: 10px;
 }
 
-body { 
-    display: block;
-    background-image: url("../assets/images/space.png");
-    color: white;
-    font-family: candyBeans, serif;
+th {
+	border-style: none;
+	text-align: center;
 }
 
-.power {
-    vertical-align: super;
+td {
+	font-family: Arial;
 }
 
-#title {
-    text-align: center;
+.center{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 13%;
 }
 
-
-.planetImgRow {
-    padding-bottom: 20px;
-    text-align: center;
+body {
+	background-image: url(images/photo-1528818955841-a7f1425131b5.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
-.planetImgColumn {
-    display: inline-block; 
+h1 {
+	margin-top: 10%;
+	text-align: center;
+	font-family: Helvetica;
+	color: #8B008B;
 }
 
-img { 
-    width: 150px;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
+#dark_background {
+	
 }
 
-/* TABLE STYLING */
-#noVal {
-    border-style: none;
-}
-
-.planetTable {
-    border-spacing: 10px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.planetVals {
-    padding: 10px;
-    text-align: center;
-}
-
-.planets { 
-    border-style: solid;
-    border-width: 2px;
-    padding: 5px;
-    text-align: center;
-}
-
-.planetCatg { 
-    border-style: solid;
-    border-width: 2px;
-    padding: 10px;
-    text-align: right;
-}
-
-.planetTable:hover .jupiter {
-    background-color: crimson;
-}
-
-.planetTable:hover .jupiterVal {
-    background-color: crimson;
-}
-
-.planetTable:hover .saturn {
-    background-color: darkorange;
-}
-
-.planetTable:hover .saturnVal {
-    background-color: darkorange;
-}
-
-.planetTable:hover .uranus {
-    background-color: cornflowerblue;
-}
-
-.planetTable:hover .uranusVal {
-    background-color: cornflowerblue;
-}
-
-.planetTable:hover .neptune {
-    background-color: mediumpurple;
-}
-
-.planetTable:hover .neptuneVal {
-    background-color: mediumpurple;
-}
-
-#mass:hover .mass {
-    background-color: green;
-}
-
-#diameter:hover .diameter {
-    background-color: green;
-}
-
-#density:hover .density {
-    background-color: green;
-}
-
-#escVelocity:hover .escVelocity {
-    background-color: green;
-}
-
-#avgDisFromSun:hover .distance {
-    background-color: green;
-}
-
-#rotPeriod:hover .rotPeriod {
-    background-color: green;
-}
-
-#revPeriod:hover .revPeriod {
-    background-color: green;
-}
-
-
-a {
-    color: white;
-}
-
-#hyperlinks {
-    padding-top: 10px;
-    text-align: center;
+tr.dark td {
+	background-color: #DC143C;
 }
